@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9A0023;
+}
+
+header nav{
+    border-top: 1px solid white;
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: fjalla one;
+    border-bottom: 1px solid white;
+}
+
+.color{
+    background-color: #FABB23;
+}
+
+.colorlista{
+    background-color: #5C0023;
+    
+}
+.colorlista li a{
+    color: white;
+}
+
+h6{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+#carousel-inner{
+    justify-content: center;
+}
+
+main p,h5{
+    color: white;
+}
+
+h4{
+    text-align: center;
+}
+
+#fondocontainer{
+    background-color: rgba(0, 0, 0, 0.589);
+}
+#mundiales{
+    color: white;
+    font-size: 3em;
+    font-family: Acme;
+    text-shadow: 3px 3px #5C0023;
+    text-align: center;
+}
+#explicacion{
+    color: white;
+    font-family: Acme;
+    font-size: 6mm;
+}
+#golesfondo{
+    background-color: rgba(0, 0, 0, 0.589);
+}
+#titulogoles{
+    text-align: center;
+    color: white;
+    font-family: Acme;
+    text-shadow: 3px 3px #5C0023;
+    border-bottom: 2px solid #9A0023;
+}
+#parrafosgol{
+    font-family: Acme;
+    font-size: 2em;
+    text-shadow: 3px 3px #5C0023;
+}
+hr{
+    color: #FABB23;
+
+}
+#parrafotituloqatar{
+    font-size: 24px;
+    font-family: Acme;
+    text-align: center;
+}
+#parrafosqatar{
+    color: white;
+    font-size: 24px;
+    font-family: Acme;
+}
+#logoqatar{
+   text-align: center;
+   margin-bottom: 3em;
+}
+#tituloqatar{
+    text-align: center;
+    color: white;
+    font-family: Acme;
+    text-shadow: 3px 3px #5C0023;
+}
+#imagenlogo{
+    border-color: #FABB23;
+   border-style: groove;
+   border-width: 1em;
+
+}
+#clasificados{
+    color: white;
+    font-family: Acme;
+    text-shadow: 3px 3px #5C0023;
+}
+.card-title{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #72c3f8;
+}
+.card{
+    background-color: #99d2f8;
+    border-color: #72c3f8;
+   border-style: groove;
+   border-width: 1em;
+}
+#brasiles{
+    background-color: #4bff90;
+    border-color: #1e994d;
+   border-style: groove;
+   border-width: 1em;
+}
+#brasilpalabra{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #0b8a3b;
+}
+#españaes{
+    background-color: #ff746a;
+    border-color: #9b1006;
+   border-style: groove;
+   border-width: 1em;
+}
+#españapalabra{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #9b1006;
+}
+#poloniapalabra{
+    color:  rgb(224, 45, 45);
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #5f5f5f;
+}
+#poloniaes{
+    background-color:white;
+    border-color: white;
+   border-style: groove;
+   border-width: 1em;
+}
+#alemaniaes{
+    background-color:gray;
+    border-color:rgb(41, 41, 41) ;
+   border-style: groove;
+   border-width: 1em;
+}
+#alemaniapalabra{
+    color: white ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px black;
+}
+#ecuadores{
+    background-color:#c8a977;
+    border-color:rgb(1, 1, 88);
+   border-style: groove;
+   border-width: 1em;
+}
+#ecuadorpalabra{
+    color: white ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px rgb(1, 1, 88);
+}
+#portugales{
+    background-color:#ccb796;
+    border-color:#004399;
+   border-style: groove;
+   border-width: 1em;
+}
+#portugalpalabra{
+    color: white ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #910209
+}
+#japones{
+    background-color:white;
+    border-color:#ffa409;
+   border-style: groove;
+   border-width: 1em;
+}
+#japonpalabra{
+    color: black ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 2px 2px #ab1416
+}
+#qatares{
+    background-color:white;
+    border-color:#8c2351;
+   border-style: groove;
+   border-width: 1em;
+}
+#qatarpalabra{
+    color: #8c2351 ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 2px 2px black
+}
+#senegales{
+    background-color:#c3403f;
+    border-color:#4ba565;
+   border-style: groove;
+   border-width: 1em;
+}
+#senegalpalabra{
+    color: white ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 2px 2px #4ba565
+}
+#holandaes{
+    background-color:white;
+    border-color:#f76a06;
+   border-style: groove;
+   border-width: 1em;
+}
+#holandapalabra{
+    color: #f76a06 ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 2px 2px #9f4505
+}
+#eeuues{
+    background-color:white;
+    border-color:#202945;
+   border-style: groove;
+   border-width: 1em;
+}
+#eeuupalabra{
+    color: #c10230 ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #202945
+}
+#inglaterraes{
+    background-color:#276599;
+    border-color:#d3223d;
+   border-style: groove;
+   border-width: 1em;
+}
+#inglaterrapalabra{
+    color: white ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #202945
+}
+#galeses{
+    background-color:#b92535;
+    border-color:#3d9456;
+   border-style: groove;
+   border-width: 1em;
+}
+#galespalabra{
+    color: white ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #3d9456
+}
+#iranes{
+    background-color:white;
+    border-color:#dc2105;
+   border-style: groove;
+   border-width: 1em;
+}
+#iranpalabra{
+    color: #dc2105 ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 2px 2px #3d9456
+}
+#arabiaes{
+    background-color:white;
+    border-color:#005a2e;
+   border-style: groove;
+   border-width: 1em;
+}
+#arabiapalabra{
+    color: #008344 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #003a1e
+}
+#mexicoes{
+    background-color:white;
+    border-color:#ff0000;
+   border-style: groove;
+   border-width: 1em;
+}
+#mexicopalabra{
+    color: #008344 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #003a1e
+}
+#australiaes{
+    background-color:#c8921d;
+    border-color:#005b40;
+   border-style: groove;
+   border-width: 1em;
+}
+#australiapalabra{
+    color: #ddb833 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #005b40
+}
+#dinamarcaes{
+    background-color:#6f0001;
+    border-color:#ec0003;
+   border-style: groove;
+   border-width: 1em;
+}
+#dinamarcapalabra{
+    color: #ffff ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #ec0003
+}
+#franciaes{
+    background-color:#0061b2;
+    border-color:#c09a5f;
+   border-style: groove;
+   border-width: 1em;
+}
+#franciapalabra{
+    color: #ffff ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 3px 3px #003287
+}
+#tunezes{
+    background-color:white;
+    border-color:rgb(68, 68, 68);
+   border-style: groove;
+   border-width: 1em;
+}
+#tunezpalabra{
+    color: black ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #e70013
+}
+#costaes{
+    background-color:white;
+    border-color:#001e63;
+   border-style: groove;
+   border-width: 1em;
+}
+#costapalabra{
+    color: #001e63 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #e70013
+}
+#belgicaes{
+    background-color:rgb(0, 0, 0);
+    border-color:#ffd900;
+   border-style: groove;
+   border-width: 1em;
+}
+#belgicapalabra{
+    color: #ffd900 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #680003
+}
+#canadaes{
+    background-color:rgb(255, 254, 254);
+    border-color:#e62316;
+   border-style: groove;
+   border-width: 1em;
+}
+#canadapalabra{
+    color: #e62316 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #680003
+}
+#croaciaes{
+    background-color:rgb(255, 254, 254);
+    border-color:#0066b3;
+   border-style: groove;
+   border-width: 1em;
+}
+#croaciapalabra{
+    color: #e6b379 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #680003
+}
+#marruecoses{
+    background-color:#00af72;
+    border-color:#bd2537;
+   border-style: groove;
+   border-width: 1em;
+}
+#marruecospalabra{
+    color: #00583a ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #bd2537
+}
+#camerunes{
+    background-color:black;
+    border-color:#4d9540;
+   border-style: groove;
+   border-width: 1em;
+}
+#camerunpalabra{
+    color: #fcdd00 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #4d9540
+}
+#serbiaes{
+    background-color:white;
+    border-color:#a6a09a;
+   border-style: groove;
+   border-width: 1em;
+}
+#serbiapalabra{
+    color: #d51725 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #8f1119
+}
+#suizaes{
+    background-color:white;
+    border-color:#da291c;
+   border-style: groove;
+   border-width: 1em;
+}
+#suizapalabra{
+    color: #d51725 ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 2px 2px #8f1119
+}
+#ganaes{
+    background-color:white;
+    border-color:#008033;
+   border-style: groove;
+   border-width: 1em;
+}
+#ganapalabra{
+    color: #e4d00a ;
+    text-align: center;
+    font-size: 29px;
+    font-family: Acme;
+    text-shadow: 3px 2px #8f1119
+}
+#coreaes{
+    background-color:#ccb796;
+    border-color:#29455c;
+   border-style: groove;
+   border-width: 1em;
+}
+#coreapalabra{
+    color: white ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 3px 3px #910209
+}
+#uruguayes{
+    background-color:white;
+    border-color:#ffa409;
+   border-style: groove;
+   border-width: 1em;
+}
+#uruguaypalabra{
+    color: #0032a7 ;
+    text-align: center;
+    font-size: 2em;
+    font-family: Acme;
+    text-shadow: 2px 2px black
+}
+#titulosmundiales{
+    font-family: Acme;
+    text-shadow: 3px 3px #5C0023;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+#mascota{
+    text-align: center;
+}
+#fixtures{
+    text-align: center;
+    border-color: #FABB23 ;
+    border-style: groove;
+    border-width: 1ch;
+}
+#footer{
+    background-color: #FABB23;
+}
+#nombrecurso{
+    font-family: Acme;
+    color: white;
+    text-shadow: 2px 2px #5C0023;
+    font-size: 120%;
+}
